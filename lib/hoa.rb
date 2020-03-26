@@ -10,5 +10,5 @@ def add_character(show, name)
   # Should return the array of the 'show' argument
   if BASE_HOA.haskey(show)
     BASE_HOA[:show].push(name)
-  
+  end
 end
